@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안드로이드 앱 개발을 배우고싶은"
+        android:textColor="#0004ff"
+        android:textSize="50px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기타 잘치는 22222성민이.."
+        android:textSize="50px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입니다 ㅎㅎ"
+        android:textSize="50px" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:text="체크해줘"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼_2"
+        android:id="@+id/btn_2_test"
+        android:layout_marginLeft="500px"
+        />
+
+
+</LinearLayout>
